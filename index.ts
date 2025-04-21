@@ -1,1 +1,0 @@
-export {Title} from './src/Component';
