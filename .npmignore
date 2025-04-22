@@ -1,9 +1,0 @@
-# Ignore source files and build tools
-src/
-tsconfig.json
-tsup.config.ts
-*.log
-*.test.*
-node_modules/
-.vscode/
-.vs/
