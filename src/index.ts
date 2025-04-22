@@ -1,1 +1,2 @@
-export {Title} from './Component';
+import './styles/fonts.css';
+export {Title, SubTitle} from './components/Component';
