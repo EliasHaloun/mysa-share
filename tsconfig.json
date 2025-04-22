@@ -1,22 +1,14 @@
-// tsconfig.json
 {
-  "compilerOptions": {
-    "target": "es5", // Target modern browsers, ES5 is safe
-    "module": "ESNext", // Let Rollup handle final module format
-    "jsx": "react-jsx", // Use the new JSX transform
-    "declaration": true, // Generate .d.ts files
-    "declarationDir": "./dist/types", // Output directory for .d.ts files
-    "outDir": "./dist", // Output directory for JS files (Rollup will override placement)
-    "rootDir": "./src", // Source code root
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node", // Important for Rollup plugins
-    "sourceMap": true, // Generate source maps
-    "lib": ["dom", "dom.iterable", "esnext"], // Include necessary libraries
-    "allowSyntheticDefaultImports": true
-  },
-  "include": ["src/**/*"], // Compile files in src
-  "exclude": ["node_modules", "dist", "**/*.stories.tsx", "**/*.test.tsx"] // Exclude unnecessary files
-}
+    "compilerOptions": {
+      "target": "es2017",
+      "module": "esnext",
+      "jsx": "react",
+      "declaration": true,
+      "outDir": "dist",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true
+    },
+    "include": ["src"]
+  }
