@@ -29,3 +29,9 @@ export const MainContainer: React.FC<{ children: React.ReactNode }> = ({ childre
         </IonPage>
     </IonApp>
 );
+
+export const Container: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', placeContent: 'center', height:'100vh'}}>;
+        {children}
+    </div>
+)
