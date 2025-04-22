@@ -30,8 +30,6 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.tsx
 var src_exports = {};
 __export(src_exports, {
-  Subtitle: () => Subtitle,
-  Title: () => Title,
   default: () => src_default
 });
 module.exports = __toCommonJS(src_exports);
@@ -39,9 +37,4 @@ var import_react = __toESM(require("react"));
 var Title = ({ text }) => /* @__PURE__ */ import_react.default.createElement("h1", { style: { fontFamily: "'Fontdiner Swanky', cursive", color: "purple", fontSize: "3rem", textAlign: "center" } }, text);
 var Subtitle = ({ text }) => /* @__PURE__ */ import_react.default.createElement("h1", { style: { fontFamily: "'Fontdiner Swanky', cursive", color: "purple", fontSize: "2rem", textAlign: "center" } }, text);
 var src_default = { Title, Subtitle };
-// Annotate the CommonJS export names for ESM import in node:
-0 && (module.exports = {
-  Subtitle,
-  Title
-});
 //# sourceMappingURL=index.js.map

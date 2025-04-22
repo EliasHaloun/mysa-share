@@ -1,11 +1,5 @@
 import React from 'react';
 
-declare const Title: React.FC<{
-    text: string;
-}>;
-declare const Subtitle: React.FC<{
-    text: string;
-}>;
 declare const _default: {
     Title: React.FC<{
         text: string;
@@ -15,4 +9,4 @@ declare const _default: {
     }>;
 };
 
-export { Subtitle, Title, _default as default };
+export { _default as default };
