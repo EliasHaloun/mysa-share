@@ -2,11 +2,10 @@
   "name": "mysa-share",
   "version": "1.0.2",
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [ "dist" ],
   "scripts": {
-    "build": "tsup"
+    "build": "tsc"
   },
   "peerDependencies": {
     "react": "^19.0.0"
@@ -15,7 +14,6 @@
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^19.1.2",
-    "tsup": "^7.0.0",
     "typescript": "^5.8.3"
   },
   "dependencies": {
