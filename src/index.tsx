@@ -11,3 +11,6 @@ export const Subtitle: React.FC<{ text: string }> = ({ text }: { text: string })
     <h1 style={{fontFamily: "'Fontdiner Swanky', cursive", color:'purple', fontSize: '2rem', textAlign: 'center'}}>
         {text}
     </h1>);
+
+
+export default {Title, Subtitle};

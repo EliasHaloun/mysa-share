@@ -6,5 +6,13 @@ declare const Title: React.FC<{
 declare const Subtitle: React.FC<{
     text: string;
 }>;
+declare const _default: {
+    Title: React.FC<{
+        text: string;
+    }>;
+    Subtitle: React.FC<{
+        text: string;
+    }>;
+};
 
-export { Subtitle, Title };
+export { Subtitle, Title, _default as default };
